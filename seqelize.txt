@@ -1,0 +1,39 @@
+Sequelize 
+it is promise base node js ORM tool 
+task ,time,asyn - await
+featuering solid transaction support ,relations,read replication and more
+
+ORM is a technique to accessing a rdb from an oop or technique that maps software to database table
+
+1. getting started
+install sequelize 
+2. connected with you own database mySql2 or anytihing that you want
+3. frame work express.js
+4. body parser:hume jo requested api me data milega vho kis type se hume mile ,form data json data etc
+5. process::
+
+create database:
+use database:
+create table with table field
+show atabase
+select * from table :
+
+create a folder for application and installation 
+1. npm init -y : initialise my app with default settings
+2.install npm i express ans npm i install
+3.create filee index.js pest express js code into it
+4. listen to the port 3000
+5. install body parsal add varible in index.js
+6.app.use(bodyParser.json()) when we want to take data of api in json format , and we get data in req vho humko json me mileg
+7. install mySql2
+8.install sequelize :npm i sequelize
+9.create model folder: create file into it index.js
+10. add sequelize and try catch conncetion to the our database
+
+model : it represent to the table ,represent table in db
+if i have one table as ***student i want to display it in my application****
+entity it represents a table in a database
+ now i have app vho humko model banake aur usko sync karega database se waha se hum table banyenge
+
+controller:
+database file and model file
